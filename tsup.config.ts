@@ -16,5 +16,10 @@ export default defineConfig({
     "@utxorpc/sdk",
     "@utxorpc/spec"
   ],
-  noExternal: []
+  noExternal: [],
+  outExtension({ format }) {
+    return {
+      js: format === "esm" ? ".mjs" : ".js"
+    };
+  }
 });
