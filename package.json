@@ -1,7 +1,7 @@
 {
-  "name": "@utxorpc/lucid-evolution-provider",
+  "name": "chow-utxorpc-lucid-provider",
   "version": "0.1.0",
-  "description": "lucid evolution provider for UTxORPC",
+  "description": "chow lucid evolution provider for UTxORPC",
   "main": "./lib/index.js",
   "module": "./lib/index.mjs",
   "exports": {
