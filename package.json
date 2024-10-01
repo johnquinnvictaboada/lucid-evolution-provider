@@ -1,6 +1,6 @@
 {
   "name": "chow-utxorpc-lucid-provider",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "chow lucid evolution provider for UTxORPC",
   "main": "./lib/index.js",
   "module": "./lib/index.mjs",
