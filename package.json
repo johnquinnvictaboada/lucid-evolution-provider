@@ -20,7 +20,7 @@
     "build": "tsup",
     "dev": "tsup --watch",
     "lint": "eslint \"src/**/*.ts*\"",
-    "clean": "rm -rf node_modules && rm -rf lib",
+    "clean": "rm -rf lib",
     "prepublishOnly": "npm run clean && npm run build"
   },
   "author": "",
