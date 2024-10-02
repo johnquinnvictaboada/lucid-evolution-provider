@@ -1,4 +1,4 @@
-import { U5C } from "../../src/u5c";
+import { U5C } from "chow-utxorpc-lucid-provider";
 import { Lucid } from "@lucid-evolution/lucid";
 
 async function main() {
